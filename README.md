@@ -14,6 +14,7 @@ Automatická nula
 - tagy FONT v kódu
 - HTTPS certifikáty podepsané nedůvěryhodnou CA
 - přítomnost skriptu, přes který se dá posílat spam
+- heslo zaslané e-mailem, při registraci nebo zapomenutí
 
 Závažné prohřešky
 -----------------
