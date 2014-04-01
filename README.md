@@ -4,9 +4,9 @@ Metodika hodnocení WebTop100
 Všechny weby začínají s plným počtem bodů. Podle nalezených prohřešků a vylepšení se danému webu poté
 strhávají a přičítají body podle závažnosti prohřešku nebo vylepšení.
 
-Automatická nula
-----------------
-***pokud je na webu nalezeno něco z následujícího seznamu, web získává automaticky nula bodů***
+Kritické prohřešky
+------------------
+***-10 bodů***
 
 - XSS, SQLI, FPD, LFI, RFI
 - `/info.php`
