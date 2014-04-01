@@ -44,3 +44,7 @@ Menší prohřešky
 ***většinou neovlivňují hodnocení (-0 bodu)***
 
 - HTML entity místo českých znaků
+
+Podstatné vylepšení
+-------------------
+***+2 body***
