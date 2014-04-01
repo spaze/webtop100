@@ -48,3 +48,5 @@ Menší prohřešky
 Podstatné vylepšení
 -------------------
 ***+2 body***
+
+- HTTPOnly session cookie (jiné cookie mohou být bez tohoto příznaku)
