@@ -30,6 +30,7 @@ Závažné prohřešky
 - nepoužitelné vyhledávání
 - inline CSS
 - lze odeslat nevyplněné formuláře s vypnutým JS
+- vyhledávání nenajde hlavní kategorie webu (např. bílé víno na webu s vínem)
 
 Prohřešky
 ---------
