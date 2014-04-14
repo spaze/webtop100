@@ -38,7 +38,6 @@ Prohřešky
 
 - chybějící soubor `robots.txt`
 - nefunkční web bez `www` prefixu
-- Flashové ovládací prvky vyžadují kliknutí navíc pro jejich aktivaci
 
 Menší prohřešky
 ---------------
