@@ -50,3 +50,6 @@ Skvěle a inspirativně řešeno
 Web dostává 3 body, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jedno z následujících vylepšení:
 
 - responzivní design (ne speciální mobilní verze)
+- web běží pouze na HTTPS
+- hlavička `Content-Security-Policy`
+- hlavička `X-XSS-Protection`
