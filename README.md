@@ -1,12 +1,11 @@
 Metodika hodnocení WebTop100
 ============================
 
-Všechny weby začínají s plným počtem bodů. Podle nalezených prohřešků a vylepšení se danému webu poté
-strhávají a přičítají body podle závažnosti prohřešku nebo vylepšení.
+Kritické problémy
+-----------------
+***0 bodů***
 
-Kritické prohřešky
-------------------
-***-10 bodů***
+Web dostává 0 bodů, pokud obsahuje alespoň jeden z následujících problémů:
 
 - XSS, SQLI, FPD, LFI, RFI
 - `/info.php`
@@ -19,9 +18,11 @@ Kritické prohřešky
 - přítomnost skriptu, přes který se dá posílat spam
 - heslo zaslané e-mailem, při registraci nebo zapomenutí
 
-Závažné prohřešky
------------------
-***většinou -2 body***
+Prostor pro zlepšení
+--------------------
+***1 bod***
+
+Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jeden z následujících problémů:
 
 - přihlašování přes HTTP
 - *Not Found* stránka neposílá HTTP stavový kód 404
@@ -32,22 +33,20 @@ Závažné prohřešky
 - lze odeslat nevyplněné formuláře s vypnutým JS
 - vyhledávání nenajde hlavní kategorie webu (např. bílé víno na webu s vínem)
 
-Prohřešky
----------
-***něco kolem -1 bodu***
+Bez velkých chyb a nedostatků
+-----------------------------
+***2 body***
+
+Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jeden z následujících problémů:
 
 - chybějící soubor `robots.txt`
 - nefunkční web bez `www` prefixu
 
-Menší prohřešky
----------------
-***většinou neovlivňují hodnocení (-0 bodu)***
+Skvěle a inspirativně řešeno
+----------------------------
+***3 body***
 
-- HTML entity místo českých znaků
-
-Podstatné vylepšení
--------------------
-***+2 body***
+Web dostává 3 body, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jedno z následujících vylepšení:
 
 - HTTPOnly session cookie (jiné cookie mohou být bez tohoto příznaku)
 - responzivní design (ne speciální mobilní verze)
