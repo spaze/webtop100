@@ -41,6 +41,7 @@ Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespo�
 
 - chybějící soubor `robots.txt`
 - nefunkční web bez `www` prefixu
+- session cookie bez příznaku HttpOnly (jiné cookie mohou být bez tohoto příznaku)
 
 Skvěle a inspirativně řešeno
 ----------------------------
@@ -48,5 +49,4 @@ Skvěle a inspirativně řešeno
 
 Web dostává 3 body, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jedno z následujících vylepšení:
 
-- HTTPOnly session cookie (jiné cookie mohou být bez tohoto příznaku)
 - responzivní design (ne speciální mobilní verze)
