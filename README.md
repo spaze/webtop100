@@ -29,7 +29,6 @@ Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň
 - nepoužitelná *Not Found* stránka (standardní stránka poskytovaná serverem)
 - nehezké URL
 - nepoužitelné vyhledávání
-- inline CSS
 - lze odeslat nevyplněné formuláře s vypnutým JS
 - vyhledávání nenajde hlavní kategorie webu (např. bílé víno na webu s vínem)
 
