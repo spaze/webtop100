@@ -1,6 +1,8 @@
 Metodika hodnocení WebTop100
 ============================
 
+Hodnocené weby se posuzují individuálně. Tento seznam je pouze základ a je tedy možné do hodnocení konkrétních webů přidat některá další kritéria a je potom na garantovi, aby s porotcem probral jejich váhu. Příkladem může být mobilní verze webu, na kterém se ihned po načtení začne načítat 20 MB video. Takové pravidlo v tomto seznamu není, ale dává smysl jej v hodnocení zohlednit.
+
 Kritické problémy
 -----------------
 ***0 bodů***
