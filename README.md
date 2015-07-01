@@ -7,7 +7,9 @@ Kritické problémy
 -----------------
 ***0 bodů***
 
-Web dostává 0 bodů, pokud obsahuje alespoň jeden z následujících problémů:
+Web dostává 0 bodů, pokud obsahuje alespoň jeden z uvedených problémů. Při nalezení je potřeba zvážit jejich závažnost. Pokud bude na dvou stránkách ze sta stejný titulek, tak není důvod o webu tvrdit, že má kritické problémy. To samé se týká tabulkového layoutu a značek `FONT` v kódu.
+
+Pokud web obsahuje uvedenou technickou chybu, která by mohla vést k nějakému bezpečnostnímu problému, tak nezáleží na kolika místech a kde se vyskytuje. Neprovádíme bezpečnostní test, nehledáme bezpečnostní chyby, nebereme v potaz dopad těchto chyb, neurčujeme jejich závažnost. Weby *nehackujeme*. Hledáme *pouze* technické chyby, tedy například místa, kde vývojáři zapomněli při výpisu nahradit `<` za `&lt;` nebo kde zobrazují neošetřené chybové hlášky programovacího jazyka. Pro hledání takových chyb nepoužíváme žádné automatizované skenovací nástroje. Použití jednoúčelových nástrojů pro zrychlení práce není vyloučeno.
 
 - XSS, SQLI, FPD, LFI, RFI
 - `/info.php`
@@ -15,7 +17,7 @@ Web dostává 0 bodů, pokud obsahuje alespoň jeden z následujících problém
 - *Not Found* stránka přesměrována na titulní stránku
 - všechny stránky mají stejný `TITLE`
 - tabulkový layout
-- tagy FONT v kódu
+- tagy `FONT` v kódu
 - HTTPS certifikáty podepsané nedůvěryhodnou CA
 - přítomnost skriptu, přes který se dá posílat spam
 - heslo zaslané e-mailem, při registraci nebo zapomenutí
