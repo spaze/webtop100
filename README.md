@@ -12,7 +12,7 @@ Web dostává 0 bodů, pokud obsahuje alespoň jeden z uvedených problémů. P�
 Pokud web obsahuje uvedenou technickou chybu, která by mohla vést k nějakému bezpečnostnímu problému, tak nezáleží na kolika místech a kde se vyskytuje. Neprovádíme bezpečnostní test, nehledáme bezpečnostní chyby, nebereme v potaz dopad těchto chyb, neurčujeme jejich závažnost. Weby *nehackujeme*. Hledáme *pouze* technické chyby, tedy například místa, kde vývojáři zapomněli při výpisu nahradit `<` za `&lt;` nebo kde zobrazují neošetřené chybové hlášky programovacího jazyka. Pro hledání takových chyb nepoužíváme žádné automatizované skenovací nástroje. Použití jednoúčelových nástrojů pro zrychlení práce není vyloučeno.
 
 - XSS, SQLI, FPD, LFI, RFI
-- `/info.php`
+- `/info.php`, `/phpinfo.php` a obecně výstup z funkce `phpinfo()`
 - *Black hat* SEO
 - *Not Found* stránka přesměrována na titulní stránku
 - všechny stránky mají stejný `TITLE`
