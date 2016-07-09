@@ -49,11 +49,17 @@ Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespo�
 - nefunkční web bez `www` prefixu
 - session cookie bez příznaku HttpOnly (jiné cookie mohou být bez tohoto příznaku)
 
-Skvěle a inspirativně řešeno
-----------------------------
+Výborné řešení
+--------------
 ***3 body***
 
-Web dostává 3 body, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jedno z následujících vylepšení:
+Web dostává 3 body, pokud neobsahuje nic z předchozího, ale nemá nic navíc z kategorie [Skvěle a inspirativně řešeno](#skvěle-a-inspirativně-řešeno).
+
+Skvěle a inspirativně řešeno
+----------------------------
+***4 body***
+
+Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc alespoň jedno z následujících vylepšení:
 
 - responzivní design (ne speciální mobilní verze)
 - web běží pouze na HTTPS
