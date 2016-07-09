@@ -21,7 +21,7 @@ Pokud web obsahuje uvedenou technickou chybu, která by mohla vést k nějakému
 - všechny stránky mají stejný `TITLE`
 - tabulkový layout
 - tagy `FONT` v kódu
-- HTTPS certifikáty podepsané nedůvěryhodnou CA
+- web přesměrovává na HTTPS, ale má certifikáty podepsané nedůvěryhodnou CA
 - přítomnost skriptu, přes který se dá posílat spam
 - heslo zaslané e-mailem, při registraci nebo zapomenutí
 
