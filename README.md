@@ -48,6 +48,7 @@ Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespo�
 - chybějící soubor `robots.txt`
 - nefunkční web bez `www` prefixu
 - session cookie bez příznaku HttpOnly (jiné cookie mohou být bez tohoto příznaku)
+- 2 nebo méně bezpečnostních hlaviček¹
 
 Výborné řešení
 --------------
@@ -63,5 +64,13 @@ Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc alespoň
 
 - responzivní design (ne speciální mobilní verze)
 - web běží pouze na HTTPS
-- hlavička `Content-Security-Policy`
-- hlavička `X-XSS-Protection`
+- 4 nebo více bezpečnostních hlaviček¹
+
+-----
+¹Bezpečnostními hlavičkami jsou myšleny následující HTTP hlavičky:
+- `X-Frame-Options`
+- `X-Content-Type-Options`
+- `Content-Security-Policy`
+- `Strict-Transport-Security`
+- `X-XSS-Protection`
+- `Public-Key-Pins`
