@@ -38,6 +38,7 @@ Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň
 - nepoužitelné vyhledávání
 - lze odeslat nevyplněné formuláře s vypnutým JS
 - vyhledávání nenajde hlavní kategorie webu (např. bílé víno na webu s vínem)
+- WebPagetest Speed Index 9000 a více (pro první i další načtení)
 
 Bez velkých chyb a nedostatků
 -----------------------------
@@ -49,6 +50,7 @@ Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespo�
 - nefunkční web bez `www` prefixu
 - session cookie bez příznaku HttpOnly (jiné cookie mohou být bez tohoto příznaku)
 - 2 nebo méně bezpečnostních hlaviček¹
+- WebPagetest Speed Index 6000-8999 (pro první i další načtení)
 
 Výborné řešení
 --------------
@@ -65,6 +67,7 @@ Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc alespoň
 - responzivní design (ne speciální mobilní verze)
 - web běží pouze na HTTPS
 - 4 nebo více bezpečnostních hlaviček¹
+- WebPagetest Speed Index 0-2999 (pro první i další načtení)
 
 -----
 ¹Bezpečnostními hlavičkami jsou myšleny následující HTTP hlavičky:
