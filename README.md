@@ -70,10 +70,11 @@ Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc alespoň
 - WebPagetest Speed Index 0-2999 (pro první i další načtení)
 
 -----
-¹Bezpečnostními hlavičkami jsou myšleny následující HTTP hlavičky:
+¹Bezpečnostními hlavičkami jsou myšleny následující HTTP hlavičky, testují se pomocí [securityheaders.io](https://securityheaders.io):
 - `X-Frame-Options`
 - `X-Content-Type-Options`
 - `Content-Security-Policy`
 - `Strict-Transport-Security`
 - `X-XSS-Protection`
 - `Public-Key-Pins`
+- `Referrer-Policy`
