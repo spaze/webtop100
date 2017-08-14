@@ -24,6 +24,7 @@ Pokud web obsahuje uvedenou technickou chybu, která by mohla vést k nějakému
 - web přesměrovává na HTTPS, ale má certifikáty podepsané nedůvěryhodnou CA nebo neposílá *intermediate* certifikáty
 - přítomnost skriptu, přes který se dá posílat spam
 - heslo zaslané e-mailem, při registraci nebo zapomenutí
+- přihlašování přes HTTP (týká se uživatelů i příp. administračních rozhraní na "předvídatelných" adresách `/admin` apod.)
 
 Prostor pro zlepšení
 --------------------
@@ -31,7 +32,6 @@ Prostor pro zlepšení
 
 Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jeden z následujících problémů:
 
-- přihlašování přes HTTP (týká se uživatelů i příp. administračních rozhraní na "předvídatelných" adresách `/admin` apod.)
 - *Not Found* stránka neposílá HTTP stavový kód 404
 - nepoužitelná *Not Found* stránka (standardní stránka poskytovaná serverem)
 - nehezké URL
