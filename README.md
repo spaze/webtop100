@@ -31,7 +31,7 @@ Prostor pro zlepšení
 
 Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jeden z následujících problémů:
 
-- přihlašování přes HTTP
+- přihlašování přes HTTP (týká se uživatelů i příp. administračních rozhraní na "předvídatelných" adresách `/admin` apod.)
 - *Not Found* stránka neposílá HTTP stavový kód 404
 - nepoužitelná *Not Found* stránka (standardní stránka poskytovaná serverem)
 - nehezké URL
