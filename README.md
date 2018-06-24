@@ -24,7 +24,7 @@ Pokud web obsahuje uvedenou technickou chybu, která by mohla vést k nějakému
 - web přesměrovává na HTTPS, ale má certifikáty podepsané nedůvěryhodnou CA nebo neposílá *intermediate* certifikáty
 - přítomnost skriptu, přes který se dá posílat spam
 - heslo zaslané e-mailem, při registraci nebo zapomenutí
-- přihlašování přes HTTP (týká se uživatelů i příp. administračních rozhraní na "předvídatelných" adresách `/admin` apod.)
+- přihlašování přes HTTP (týká se uživatelů i příp. administračních rozhraní na "předvídatelných" adresách `/admin` a dalších)
 
 Prostor pro zlepšení
 --------------------
