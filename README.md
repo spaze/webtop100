@@ -54,13 +54,13 @@ Výborné řešení
 --------------
 ***3 body***
 
-Web dostává 3 body, pokud neobsahuje nic z předchozího, ale nemá nic navíc z kategorie [Skvěle a inspirativně řešeno](#skvěle-a-inspirativně-řešeno).
+Web dostává 3 body, pokud neobsahuje nic z předchozího, ale chybí mu něco z kategorie [Skvěle a inspirativně řešeno](#skvěle-a-inspirativně-řešeno).
 
 Skvěle a inspirativně řešeno
 ----------------------------
 ***4 body***
 
-Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc alespoň jedno z následujících vylepšení:
+Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc všechna následující vylepšení:
 
 - responzivní design (ne speciální mobilní verze)
 - web běží pouze na HTTPS
