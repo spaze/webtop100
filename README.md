@@ -74,5 +74,4 @@ Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc alespoň
 - `Content-Security-Policy`
 - `Strict-Transport-Security`
 - `X-XSS-Protection`
-- `Public-Key-Pins`
 - `Referrer-Policy`
