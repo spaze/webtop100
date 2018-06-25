@@ -33,7 +33,7 @@ Prostor pro zlepšení
 Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň jeden z následujících problémů:
 
 - *Not Found* stránka neposílá HTTP stavový kód 404
-- nepoužitelná *Not Found* stránka (standardní stránka poskytovaná serverem)
+- všechny *Not Found* stránky jsou nepoužitelné (standardní stránky poskytované serverem)
 - nehezké URL
 - lze odeslat nevyplněné formuláře s vypnutým JS
 - WebPagetest Speed Index 9000 a více (pro první i další načtení)
@@ -50,6 +50,7 @@ Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespo�
 - 2 nebo méně bezpečnostních hlaviček¹
 - WebPagetest Speed Index 6000-8999 (pro první i další načtení)
 - stránky jsou dostupné pomocí HTTP, prohlížeč není přesměrován na HTTPS
+- některé *Not Found* nebo *Forbidden* (HTTP kódy 4xx) jsou standardní stránky poskytované serverem
 
 Výborné řešení
 --------------
