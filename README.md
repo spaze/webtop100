@@ -49,6 +49,7 @@ Web dostává 2 body, pokud neobsahuje nic z předchozího, ale obsahuje alespo�
 - session cookie bez příznaku HttpOnly (jiné cookie mohou být bez tohoto příznaku)
 - 2 nebo méně bezpečnostních hlaviček¹
 - WebPagetest Speed Index 6000-8999 (pro první i další načtení)
+- stránky jsou dostupné pomocí HTTP, prohlížeč není přesměrován na HTTPS
 
 Výborné řešení
 --------------
@@ -63,7 +64,6 @@ Skvěle a inspirativně řešeno
 Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc všechna následující vylepšení:
 
 - responzivní design (ne speciální mobilní verze)
-- web běží pouze na HTTPS
 - 4 nebo více bezpečnostních hlaviček¹
 - WebPagetest Speed Index 0-2999 (pro první i další načtení)
 
