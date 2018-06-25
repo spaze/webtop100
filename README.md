@@ -40,6 +40,7 @@ Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň
 - nehezké URL
 - lze odeslat nevyplněné formuláře s vypnutým JS
 - WebPagetest Speed Index 9000 a více (pro první i další načtení)
+- chybějící, nenačtené obrázky na stránce
 
 Bez velkých chyb a nedostatků
 -----------------------------
@@ -70,6 +71,7 @@ Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc všechna
 - responzivní design (ne speciální mobilní verze)
 - 4 nebo více bezpečnostních hlaviček¹
 - WebPagetest Speed Index 0-2999 (pro první i další načtení)
+- *Page Image Score* "A" z [Website Speed Testu](https://webspeedtest.cloudinary.com/)
 
 -----
 ¹Bezpečnostními hlavičkami jsou myšleny následující HTTP hlavičky, testují se pomocí [securityheaders.com](https://securityheaders.com):
