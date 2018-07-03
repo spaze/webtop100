@@ -71,7 +71,7 @@ Web dostává 4 body, pokud neobsahuje nic z předchozího a má navíc všechna
 - responzivní design (ne speciální mobilní verze)
 - 4 nebo více bezpečnostních hlaviček¹
 - WebPagetest Speed Index 0-2999 (pro první i další načtení)
-- *Page Image Score* "A" z [Website Speed Testu](https://webspeedtest.cloudinary.com/)
+- *Potential Compressed Weight* z [Website Speed Testu](https://webspeedtest.cloudinary.com/) nad 50 %
 
 -----
 ¹Bezpečnostními hlavičkami jsou myšleny následující HTTP hlavičky, testují se pomocí [securityheaders.com](https://securityheaders.com):
