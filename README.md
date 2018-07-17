@@ -38,7 +38,6 @@ Web dostává 1 bod, pokud neobsahuje nic z předchozího, ale obsahuje alespoň
 - *Not Found* stránka neposílá HTTP stavový kód 404
 - všechny *Not Found* stránky jsou nepoužitelné (standardní stránky poskytované serverem)
 - nehezké URL
-- lze odeslat nevyplněné formuláře s vypnutým JS
 - WebPagetest Speed Index 9000 a více (pro první i další načtení)
 - chybějící, nenačtené obrázky na stránce
 
