@@ -27,7 +27,7 @@ Pokud web obsahuje uvedenou technickou chybu, která by mohla vést k nějakému
 - přihlašování přes HTTP (týká se uživatelů i příp. administračních rozhraní na "předvídatelných" adresách `/admin` a dalších)
 - možnost ze serveru získat zdrojové kódy nebo informace o nich (např. ze souboru `/.git/HEAD`, z výpisu adresářů apod.)
 - použití JavaScriptových knihoven [se známými zranitelnostmi](https://developers.google.com/web/tools/lighthouse/audits/vulnerabilities)
-- web běží na volně dostupném redakčním systému (Wordpress aj. včetně doplňků) se známými zranitelnostmi
+- web běží na volně dostupném redakčním systému (Wordpress aj. včetně doplňků) na verzích se známými zranitelnostmi
 
 Prostor pro zlepšení
 --------------------
